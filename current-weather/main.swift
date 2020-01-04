@@ -12,11 +12,16 @@ func run() {
     let currentWeather = CurrentWeather()
     let consoleIO = ConsoleIO()
     
+
     switch arguments.count {
     case 1:
         consoleIO.printUsage()
     case 2:
+        if arguments[1] == "-h" {
+            consoleIO.printUsage()
+        } else {
         currentWeather.showWeather(for: finalArguments(arguments)[0])
+        }
     default:
         let searchArgument = finalArguments(arguments).joined(separator: " ")
         currentWeather.showWeather(for: searchArgument)
