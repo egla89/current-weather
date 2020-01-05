@@ -39,7 +39,7 @@ func fetchWeather(for city: String) {
             country = weatherInfo.sys.country
             CFRunLoopStop(runLoop)
        } else {
-        consoleIO.writeMessage("Couldn't find city", to: .error)
+        consoleIO.writeMessage("Couldn't find city. You can add a country by using its two letter code, for example: London, UK", to: .error)
         exit(EXIT_FAILURE)
         }
     }
