@@ -11,6 +11,6 @@ Add your API key from Openweather to Config.swift. You can get a free key by sig
 
 
 ### Todo
-Extract API key to settings file and add a setup flow
-Improve use of colors (eg. gradients for temperature, wind, etc)
-Add loading animation for very slow connections
+- Extract API key to settings file and add a setup flow
+- Improve use of colors (eg. gradients for temperature, wind, etc)
+- Add loading animation for very slow connections
