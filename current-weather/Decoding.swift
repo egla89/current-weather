@@ -41,4 +41,5 @@ struct Wind: Codable {
 struct Sys: Codable {
     var country: String
 }
+
 var weatherData = [Weather]()

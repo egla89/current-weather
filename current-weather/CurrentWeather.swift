@@ -23,9 +23,9 @@ class ConsoleIO {
             
       writeMessage("usage:")
       writeMessage("\(executableName) city")
-      writeMessage("\(executableName) city, country")
+      writeMessage("\(executableName) city, country code (eg. UK)")
       writeMessage("or")
-      writeMessage("\(executableName) -h to show usage information")
+      writeMessage("\(executableName) -h to show this screen")
     }
  
 
