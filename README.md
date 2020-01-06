@@ -7,7 +7,8 @@ current-weather is a simple weather app for your terminal showing the current we
 
 
 ### Setup
-Add your API key from Openweather to Config.swift. You can get a free key by signing up on [openweathermap.org](https://openweathermap.org)
+- Add your API key from Openweather to Config.swift. You can get a free key by signing up on [openweathermap.org](https://openweathermap.org)
+- Compile it with Xcode
 
 
 ### Todo
